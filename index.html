@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!--CSS File-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Contains Location and weather Icon-->
+    <div id="main">
+      <div id="location">
+        <h1 id="location-name"><!--Location Name--></h1>
+        <h2 id="location-region"><!--region Name--></h2>
+        <h2 id="location-country"><!--country Name--></h2>
+      </div>
+
+      <div id="weather-icon-div">
+        <!--Icon-->
+        <img id="weather-icon" src="" alt="" />
+        <!--Description-->
+        <p id="temperature-description">It's Cold</p>
+      </div>
+    </div>
+
+    <!--Contains Temperature and temperature unit-->
+    <div id="temperature-section">
+      <!--Temperature in Units-->
+      <div id="degree-section">
+        <h3 id="temperature-degreeF"><!--F--></h3>
+        <br />
+        <h3 id="temperature-degreeC"><!--C--></h3>
+      </div>
+    </div>
+    <!--Extra Info-->
+    <section id="extra-info">
+      <ul>
+        <li id="wind"><!--Wind Speed--></li>
+        <li id="wind-direction"><!--Direction--></li>
+        <li id="rain"><!--Rain Fall--></li>
+        <li id="feelsLike"><!--Feels Like--></li>
+        <li id="visibility"><!--Visibility--></li>
+        <li id="uv-index"><!--UV--></li>
+      </ul>
+    </section>
+    <p id="update-time"><!--Time of last update--></p>
+    <!--JavaScript file-->
+    <script src="script.js"></script>
+  </body>
+</html>

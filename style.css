@@ -1,0 +1,66 @@
+body {
+  height: 100vh;
+  /*50 shades of grey*/
+  background: linear-gradient(#bdc3c7, #2c3e50);
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+#main {
+  margin-top: 30px;
+  height: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#weather-icon-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#degree-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  padding: 10px;
+  font-size: 30px;
+}
+ul {
+  margin: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  word-spacing: 0.1rem;
+  font-size: 17px;
+}
+li {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px white;
+  width: 25%;
+  margin: 10px;
+}
+li:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+#update-time {
+  text-align: center;
+  padding: 2px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 25%;
+  display: block;
+  margin: auto;
+}
